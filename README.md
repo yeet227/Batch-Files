@@ -1,6 +1,3 @@
-Files for tools Such as for IOS-Windows-android
-so please utilise all of the tools i will try and keep them up to date as much as i can if they aren't fully up to date just 
-i Will be adding more tools to this
-email me
+Files for tools Such as for Windows Only
 
-killshot2272004@gmail.com
+WARNING! These tools are dangerous Please don't use them
