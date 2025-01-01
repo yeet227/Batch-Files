@@ -1,0 +1,20 @@
+@echo off
+set /p filename=Enter the name for your Batch file (without extension): 
+
+rem Check if the filename is provided
+if "%filename%"=="" (
+    echo Error: Filename not provided.
+    pause
+    exit /b 1
+)
+
+rem Create the Batch program file
+echo @echo off > %filename%.bat
+echo. >> %filename%.bat
+echo REM Add your Batch commands here... >> %filename%.bat
+
+rem Open the Batch program file in Notepad
+start notepad %filename%.bat
+
+echo Batch file "%filename%.bat" created and opened in Notepad.
+pause
